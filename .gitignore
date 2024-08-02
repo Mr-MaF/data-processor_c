@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
+
+# Compiled Binary files
+*.exe
+*.out
+*.app
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Libraries
 *.lib
+*.a
+*.la
+*.lo
+*.dll
+*.dylib
+*.so
 
-# Executables
-*.exe
-*.out
-*.app
+# Debug files
+*.dSYM/
+*.ipch/
+*.pdb
+*.ilk
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
